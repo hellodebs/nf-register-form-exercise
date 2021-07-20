@@ -1,0 +1,19 @@
+.RegisterForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 1rem;
+}
+
+.RegisterForm button {
+  all: unset;
+  background-color: darkblue;
+  color: whitesmoke;
+  padding: 0.7em 1.2em;
+  cursor: pointer;
+}
+
+.RegisterForm input {
+  border: 1px solid black;
+}
